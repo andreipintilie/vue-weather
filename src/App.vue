@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div id="app" class="pt-5">
 		<div
 			class="app_search text-center d-flex justify-content-center align-items-center"
 		>
