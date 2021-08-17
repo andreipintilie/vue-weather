@@ -47,8 +47,8 @@
 					</div>
 				</div>
 			</div>
-			<div v-else class="text-white">
-				<h3>Type a city in the search box and press enter!</h3>
+			<div v-else class="text-black">
+				<p class="fw-bold">Type a city name and press enter.</p>
 			</div>
 		</div>
 	</div>
