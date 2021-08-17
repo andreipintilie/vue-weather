@@ -218,7 +218,6 @@
 		.app_weather {
 			width: 100%;
 			height: 100%;
-			overflow-y: scroll;
 
 			p {
 				user-select: none;
