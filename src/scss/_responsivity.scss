@@ -1,0 +1,67 @@
+@media (min-width: 320px) {
+	#app {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100% !important;
+
+		.app_search {
+			width: 100% !important;
+
+			#searchForm {
+				width: 100% !important;
+			}
+		}
+		.app_weather {
+			height: 100% !important;
+			background: white !important;
+		}
+		.card {
+			width: 17rem !important;
+		}
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	#app {
+		height: 100% !important;
+	}
+
+	.app_search {
+		width: 100% !important;
+
+		#searchForm {
+			width: 50% !important;
+		}
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+	.app_search {
+		width: 100% !important;
+
+		#searchForm {
+			width: 40% !important;
+		}
+	}
+	.card {
+		width: 25rem !important;
+	}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+	.app_search {
+		width: 100% !important;
+
+		#searchForm {
+			width: 28% !important;
+		}
+	}
+	.card {
+		width: 25rem !important;
+	}
+}
